@@ -1,20 +1,8 @@
-# ImageLite
-
-一个展示 CMake 功能的简单图像处理库
-
-## 特点
-
-- 基础图像加载与保存（使用 stb_image）
-- 核心操作：裁剪、调整尺寸、旋转
-- 滤镜：灰度、亮度调节、模糊
-
 ## 构建
 
 ```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
+cmake -B build
+cmake --build build
 ```
 
 ## 说明
