@@ -1,17 +1,11 @@
-# ImageLite
-
-A simple image processing library demonstrating CMake capabilities.
-
-## Features
-
-- Basic image loading and saving (using stb_image)
-- Core operations: crop, resize, rotate
-- Filters: grayscale, brightness adjustment, blur
-
-## Building
+## 构建
 
 ```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
+cmake -B build
+cmake --build build
+```
+
+## 说明
+
+* 使用 CMake 自动化构建任务，本次是自动化代码生成
+* 本次会在构建时生成一个头文件，其中包含支持的图像格式信息
