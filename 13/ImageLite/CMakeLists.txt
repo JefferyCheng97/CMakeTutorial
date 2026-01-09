@@ -190,3 +190,6 @@ elseif(UNIX AND NOT APPLE)
 else()
     message(STATUS "Platform: Unknown")
 endif()
+
+# 输出当前的构建类型 
+message(STATUS "构建类型: ${CMAKE_BUILD_TYPE}")
